@@ -13,7 +13,7 @@ module.exports = {
 
   // Prefix for KV Storage.
   // You can put this in Vercel's environment variable 'KV_PREFIX' without any modification here.
-  kvPrefix: process.env.KV_PREFIX || 'KV_PREFIX',
+  kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
   // You can put this in Vercel's environment variable 'NEXT_PUBLIC_SITE_TITLE' without any modification here.
@@ -26,7 +26,7 @@ module.exports = {
 
   // [OPTIONAL] If you want to display the email used to contact you on the right side of the nav bar, 
   // you can set it in Vercel's environment variable 'NEXT_PUBLIC_EMAIL' without any modification here.
-  email: process.env.NEXT_PUBLIC_EMAIL ? `mailto:${process.env.NEXT_PUBLIC_EMAIL}` : '',
+  email: process.env.NEXT_PUBLIC_EMAIL ? `mailto:${process.env.NEXT_PUBLIC_EMAIL}` : 'RgMoviesone@anct.website',
   
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double quotes - changing " to \".
   // You can write anything here, and if you like badges, generate some with https://shields.io
